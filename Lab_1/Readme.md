@@ -1,6 +1,6 @@
-#Laboratory work nr 1
+# Laboratory work nr 1
 ---
-###Objectives 
+### Objectives 
 Get to remember (or learn and understand) what you did at the Programarea în Rețea course:
 
 * build TCP and UDP server/client "programs" using sockets;
