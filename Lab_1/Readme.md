@@ -11,12 +11,8 @@ Get to remember (or learn and understand) what you did at the Programarea în Re
 
 This task was implimented in Python and basically the server and cliend side where defined both for TCP and UDP connections. 
 First, let's analyze the TCP connection that was implimented. The IP adress was defined, TCP_IP, which in my case is the localhost, then the port was defined, TCP_PORT, which is 5005. Then after the connection is establish, the TCP client is sending a message to the server, and server is listening to upcoming connections and then accepts the connection and only after that it receives the data in small chunks and retransmit it. After all the actions are done the connection is closed.
-The main defference between TCP and UDP connection is that TCP is a connection-oriented protocol, while UDP is a connectionless protocol. This first difference can be noticed when we define the sockets, for example the UDP socket uses 
-
-~~~ socket.SOCK_DGRAM ~~~ 
-while TCP uses 
-
-~~~ socket.SOCK_STREAM ~~~
+The main defference between TCP and UDP connection is that TCP is a connection-oriented protocol, while UDP is a connectionless protocol. This first difference can be noticed when we define the sockets, for example the UDP socket uses  socket.SOCK_DGRAM 
+while TCP uses: socket.SOCK_STREAM
 ---
 ### Task 1.1 send a message at fixed intervals
 
