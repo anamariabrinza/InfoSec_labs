@@ -1,10 +1,10 @@
-#Laboratory work nr 3
-##Objectives
+# Laboratory work nr 3
+## Objectives
 The main objective of this work is to crack the shift cipher, plain and simple. There are two approaches that can be used to "break the code":
 * Frequency Analysis
 * Dictonary attack 
 
-##Implimentation 
+## Implimentation 
 In order to "break the code" I implimented the Frequency analysis approach. 
 The basic concept of Frequency Analysis is based on fining out the most frequent character/letter.
 Once we are aware of the language the message was encrypted, the whole algorithm is the following: 
