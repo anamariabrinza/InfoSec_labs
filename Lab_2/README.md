@@ -1,9 +1,9 @@
-#Laboratory work nr 4
+# Laboratory work nr 4
 
-##Objectives
+## Objectives
 Learn how to use the network as an attack vector. Impliment one of the following: TCP SYN flood, HTTP Slowloris or HTTP slow POST
 
-##Implementation 
+## Implementation 
 
 In this work I tried to implement the TCP SYN Flood attack. 
 This attack is based on ”three-way handshake”. A client sends a TCP SYN (S flag) packet to begin a connection to the server. The target server replies with a TCP SYN-ACK (SA flag) packet, but the client does not respond to the SYN-ACK, leaving the TCP connection “half-open”. In normal operation, the client should send an ACK (a flag) packet followed by the data to be transferred, or an RST reply to reset the connection. On the target server, the connection is kept open, in a “SYN_RECV” state, as the ACK packet may have been lost due to network problems.
