@@ -1,4 +1,4 @@
-# Laboratory work nr 4
+# Laboratory work nr 2
 
 ## Objectives
 Learn how to use the network as an attack vector. Impliment one of the following: TCP SYN flood, HTTP Slowloris or HTTP slow POST
